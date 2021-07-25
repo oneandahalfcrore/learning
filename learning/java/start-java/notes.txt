@@ -1,0 +1,11 @@
+1. what is ide ?
+ide is one place where u can edit , compile or run a program all at one place .
+if we use terminal for these things , it would be much more difficult for a person to do it .
+for java , intelliJ or eclipse is used .
+in companies u have ide to develop.
+
+2. with modular code , testing and modification is easy
+
+3. hadoop is built on the concept multithreading and concurrency in java
+
+
