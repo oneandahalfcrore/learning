@@ -1,0 +1,12 @@
+1. what makes java different ?
+
+   -- language simplicity
+   -- dififcult to introduce a bug and easy to find a bug
+   -- very less undefined behaviour (ex- ArrayIndexOutOfBoundException in JAVA but segmentation fault (occurs when u 
+      try to access memory out of the process) in C++ and it might run also sometimes without giving segmentation fault)
+   -- automated memory management 
+      the garbage collector will take care of freeing up the heap space 
+   -- java does not have pointers 
+      direct manipulation on memory is not allowed . this increases readability and makes the program error free
+      (when writing code which wants to interact with machine then pointers in c/c++ is good but if u are building
+       an application which is not a system software java is really helpful)
