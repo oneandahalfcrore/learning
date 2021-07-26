@@ -1,12 +1,44 @@
-1. what makes java different ?
+1. what makes java different ? why java is used when c/c++ is faster ?
 
    -- language simplicity
-   -- dififcult to introduce a bug and easy to find a bug
+
+   -- difficult to introduce a bug and easy to find a bug
+
    -- very less undefined behaviour (ex- ArrayIndexOutOfBoundException in JAVA but segmentation fault (occurs when u 
       try to access memory out of the process) in C++ and it might run also sometimes without giving segmentation fault)
-   -- automated memory management 
-      the garbage collector will take care of freeing up the heap space 
+
+   -- automated memory management (managing the memory of the process )
+      the garbage collector will take care of freeing up the heap space at regular intervals of time by freeing up the created and unused objects
+      memory management is important because size of heap assigned to a process is limited and it depends on operating system
+ 
    -- java does not have pointers 
-      direct manipulation on memory is not allowed . this increases readability and makes the program error free
-      (when writing code which wants to interact with machine then pointers in c/c++ is good but if u are building
+      --> direct manipulation on memory is not allowed . this increases readability and makes the program error free
+      --> (when writing code which wants to interact with machine then pointers in c/c++ is good but if u are building
        an application which is not a system software java is really helpful)
+      --> (ex - take th example of an uninitialised pointer).
+      --> java has references which are close to pointers.
+      --> chances of memory leak in c++ but rare in java because it might be in other languages we do not reach the code where the dynamic object is manually deleted 
+          but we do not have to care about this thing in java because of garbage collection
+
+   -- platform independent
+      --> what is a platform ?
+          there are different kinds of cpus and different kinds of os 
+          os-cpu combined make a platform.
+      --> c/c++ is platform dependent because compiler that we use is different for evey platform.
+      --> when a program is compiled through javacompiler(javac) then a bytecode is produced.
+          this bytecode can be executed on any platform which has JVM because the bytecode is converted 
+          into executable instructions by java virtual machine (JVM)
+      --> JVM can understand the bytecode and knows how to communicate wth the underlying hardware 
+      --> hardware - os - JVM - bytecode 
+      --> the assembly code produced by compiler in c/c++ contains some instruction specific to the platform ex- movq leaq
+          while in java the instructions in the bytecode are not specific to platform but to java virtual machine
+
+   -- ease of doing third party integrations
+      --> very useful when code has dependencies 
+      --> just put all the dependencies in a file and dependency manager in java will download all the bytecodes and combine it with the program which can be executed then
+      --> c/c++ do not have this dependency manager feature because they are not platform independent.
+      --> bytecodes downloaded are available in jar files (java archive files)
+      --> jar files are collection of byte codes which are zipped .
+      --> screenshot of dependency file 
+
+   
