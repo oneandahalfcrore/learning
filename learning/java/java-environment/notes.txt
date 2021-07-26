@@ -1,0 +1,29 @@
+1. All professionals use IDE(Integrated Development Environment)
+
+2. what are the things u can do with IDE ?
+   --> writing code is easier
+   --> compiling and executing code can be done with the help of a button
+   --> testing and debugging is easy.
+
+3. popular IDE for Java
+   --> netbeans , eclipse and intelliJ
+
+4. Why IDE ?
+   --> syntax highlighting (configurable)
+   --> code completion (auto completion of code )
+   --> debugging
+   --> error hinting (while writing the code it will hint uabout the errors)
+
+5. IDE and JDK are two different things . download both separately and then integrate it .
+   
+6. installing JDK 
+   --> JDK is provided by many vendors . one of the vendor is amazon.
+
+7. installing IntelliJ Community
+
+8. integrating IDE and JDK and creating a new project
+
+
+
+
+
