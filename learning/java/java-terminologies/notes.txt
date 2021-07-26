@@ -1,0 +1,56 @@
+1. whenever we install java we have download software and that software comes with varius modules which we need to understand in java terminologies.
+
+2. JDK,JVM,JRE are required to compile a java program and run it .
+   JDK,JVM,JRE are nothing but softwares at the root level.
+   JDK,JVM,JRE form JAVA ecosystem that is in order to grow in java world u need these 3 softwares in your environment.
+
+3. Compiler v/s interpreter
+   -->  COMPILER ADVANTAGES :
+        the source code can be compiled once and the machine code or the object code can be run multiple times on a platform.
+   -->  COMPILER DISADVANTAGES :
+        the machine code is platform dependent
+   -->  COMPILER USECASE :
+        online competition on coding platforms (they generate the compiled code once and check different inputs on the compiled code )
+   -->  INTERPRETER ADVANTAGES :
+        since interpreter directly interprets the source code which is platform independent the execution of a program can be made platform independent
+        Since interpreter is executing in runtime we can do runtime optimizations .
+   -->  INTERPRETER DISADVANTAGES :
+        it is slow as for 100 lines of code u have to execute 1000 lines of code 
+        that is while the execution of object code interpreter is also executing 
+   -->  INTERPRETER USECASE :
+        JVM command line , shell scripts
+   -->  the entire execution of the program is slower in interpreter than compiler
+
+4. Java uses both compiler and interpreter  
+    source code --> compiler --> bytecode --> interpreter
+
+5. JDK (java development kit)
+   --> both compiler and interpreter are present in this 
+   --> software development kit that comes with all the required tools and libraries for compiling , debugging , testing , executing java programs 
+   --> tools included in the kit
+       Javac -- compiler
+       jdb -- debugging tool
+
+6. debugging v/s testing
+   --> in debugging we introduce stop points to make sure that the program can be made error free 
+       so the program is analysed at these stop points like the value of variables,function calls etc.
+   --> when program gives error we do debugging but irrespective of errors , we have to check our programs for multiple test cases which is called testing.
+   --> testing is always done but debugging is done when program has errors. 
+
+7. JRE (JAVA run time environment)
+   --> whenever u are executing the program it is called as runtime 
+   --> we need JRE to execute java programs 
+   --> the most important utilities in JRE :
+       java : command - line tool responsible for launching JVM 
+       libraries : implementation of data structures , multithreading and synchronisation 
+   --> JDK comes bundled with JRE 
+
+8. JVM (Java Virtual Machine )
+   --> nowhere related to concept of virtualisation in OS.
+   --> it is a virtualised CPU that can understand the instructions present in the bytecode which was the output of the java compiler .
+   --> the reason we are calling it virtualised cpu is because it is just a program which is simulating an actual hardware processor .
+   --> the bytecode given to the cpu which then executes interpreter to convert the bytecode into machine code .
+       we are in belief that actual cpu is doing the conversion but actually the conversion is done by the interpreter JVM therefore it is 
+       called virtualised CPU.
+   --> JVM is platform dependent
+   --> JVM = interpreter + actual hardware 
