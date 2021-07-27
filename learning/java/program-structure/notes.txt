@@ -1,0 +1,75 @@
+ 1. every java program has the same structure 
+
+2. a java program consists of one or more of the following sections :
+   --> Documentation section -- which task the program is performing 
+       general tradition is to write the name of the person who has written the 
+       program and the date on which the program is written and the company name .
+       present in every program
+
+   --> Package statement -- putting similar types of things in one box called package
+       classifying the code into various folders and putting related code together in 
+       one folder. ex.-- u can put code related to simple data structures in one folder ,
+       advanced data structures in one folder and the code related to input output in one folder.
+       present in every program
+       cannot have more than one package statements in a file
+       same package statement can be used with any number of files so that related files go in one folder.
+
+   --> Import statement 
+       using import statement u can include the whole code or a piece of code 
+       may not be present in every program
+
+   --> Class Definition
+       everything u write in java needs to be present in some class
+       present in every program
+
+   -->  Main method definition
+        interpreter does not know from ehich line to start the execution therefore main method
+        may not be present in every program . example if u are writing code used in another program then there is no need to write main method
+
+3. #include v/s import
+   --> # include is used for header files which contains only the definitions of the functions and variables so 
+       # include only copy paste those definitions of functions and variables. 
+   --> import actually imports the code from other folders into the program .the code contains need not only contain definitions of functions and variables.
+
+4. explanation of the program through screenshots 
+   
+5. java.util.sc means that the java.util folder contains scanner file
+
+6. --> every file should have a public class and the name of the public class should be same as file name .
+   --> ex- public class Reechika     Reechika.java
+   --> there can be only one public class in a file.
+   --> suppose if u are writing a program having main inside class then u have to make that class public .
+   --> Use PascalCasing to write the names of the class
+
+7. u will never be able to run a program without main
+
+8. java is case sensitive .
+
+9. String[] args
+   --> whenever u want to pass something as an input to the program through the command line we can take use of String[] args which is an array of strings.
+   --> even when u do not want to read anything still u have to write String[] args.
+   --> write java followed by file name (//give the input strings which will be passed to the String[] args)
+
+10. what happens when we declare the main function as private instead of public ?
+    --> the interpreter (JVM) will not be able to find the method main
+    --> since private methods are only accessible to the class they are in and since JRE is outside the class 
+        we need to grant permission to use main by making main method public .
+
+11. System.out.println()
+    --> println is not defined inside the program but still we are using it because it is a library function
+        but we have also not imported any library.
+    --> we have not used import statement because System.out.println is included inside java.lan package and by default
+        every program will get java.lang without even including it .
+    --> system is a final class defined in the java.lang package.this means there is a class System present in the file inside 
+        lang folder and the class is final(i.e. in order to use this class u do not have to create any object )
+    --> out is an instance of PrintStream which contains member function println
+
+12. creating a new project
+
+13. the program that we write is called the src code .
+
+14. creating first java program FirstJavaCode 
+
+
+
+ 
