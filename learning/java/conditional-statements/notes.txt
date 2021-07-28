@@ -1,0 +1,15 @@
+1. why conditional statements ?
+   skip or execute certain lines of code based upon the conditions
+
+2. types of conditional statements
+   --> if statement
+   --> nested if statement
+   --> if-else statement
+   --> if-else-if statement
+   --> switch case statement
+
+3. writing multiline comments in java 
+   /**
+    *
+    *
+    */ 
