@@ -1,0 +1,64 @@
+1. the name of the variable is converted into address internally to access the value 
+
+2. Declaring Variables 
+   --> syntax : datatype variable ( example - int marks)
+
+3. Data Types
+   --> primitive
+       these are predefined
+       boolean , char , byte , short , int , long , float , double
+
+   --> non-primitive
+       classes , Arrays, interfaces
+
+4. Primitive Data types
+   (JVM platform decides the size of the datatypes)
+   --> boolean 
+   --> byte 
+       can store whole numbers from -128 to 127
+       can be used instead of int or other data types to save memory when u are certain
+       that the value will be within -128 and 127
+       it occupies 8 bits.  
+   --> char
+       character must be surrounded by single quotes 
+       java uses unicode not ascii
+   --> short
+       this datatype can store -32678 to 32767
+       occupies 16 bits
+   --> int
+       occupies 4 bytes of data
+   --> long
+       occupies 8 bytes of data
+       ends with "l"
+   --> float
+       single precision 32-bit IEEE 754 floating point
+       as the floating point number increases ex- 2.54678 it will be able to either map 2.5 or 2.6 so the accuracy will decrease and we will lose the data
+       as the number increases.this is a major problem in case of fintech companies.
+       ends with "f"
+   --> double
+       double precision 64-bit IEEE 754 floating point
+       more accuracy than float
+       ends with "d"
+
+5. Naming Variables
+   --> all the variable names must begin with a letter of the alphabet , an underscore (_) , or a dollar sign ($)
+   --> the $ and _ are allowed but discouraged u shuld try to not use them as the beginning letter
+   --> after the first initial letter , variable names may also contain letters and the digits 0 to 9 , but not any special symbols except _ and $
+   --> no spaces are allowed
+   --> variable names do not occupy space . symbol table is used for mapping variable name to address.
+   --> the name can be of any length ( u can have as long as 65000 characters) but this practice is discouraged.   
+   --> u cannot use java keyword ( reserved keyword) for a variable name.  
+   --> variable names are case sensitive . using ALL uppercase letters are primarily used to identify constant variables.  
+
+6. initialising variables
+   --> a variable can be initialised when it is declared.
+   --> whenever we give the value first time to a variable it is called initialisation.
+   --> syntax : datatype variablename = value 
+     
+    
+
+   
+
+
+   
+    
