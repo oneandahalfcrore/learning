@@ -1,1 +1,6 @@
 1. if has to always take a boolean type 
+
+SWITCH STATEMENTS
+
+1. we cannot use boolean value with switch statements.
+2. nested switching is also possible.
