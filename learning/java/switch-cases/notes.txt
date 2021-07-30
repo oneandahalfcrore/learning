@@ -1,0 +1,25 @@
+1. switch case statement is used when we have mutiple options to select.the option is selected 
+   through the value of an expression.
+
+2. syntax of switch expression in screenshot
+
+3. break and default in switch case statements
+
+4. if-else v/s switch
+   --> large conditions prefer switch small conditions prefer if-else
+
+5. we can not use duplicate values in switch cases.see question number 1 screenshot 
+
+6. the value for the case must be the same datatype as the variable in the switch.see question number 2 screenshot
+
+7. the value for a case must be  a constant or a literal . Varaiables are not allowed.see question number 3 screenshot
+   because the compiler builds switch cases as a very fast lookup table at COMPILE TIME. and variable value can change when program runs hence it is not allowed.
+   if we do need it to be a variable not a constant we should use if else.
+
+8. the default statement can be present anywhere in the cases , if it is present in between then break statement should be used.defaul statement is optional.
+
+
+
+
+
+
