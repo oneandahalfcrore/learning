@@ -1,0 +1,50 @@
+1. why OOPS ?
+   -- concept of classes to put related data together
+   -- better management of related parameters
+   -- storing and retrieval is easy
+
+2. what is OOPS ?
+   -- object orrineted programming
+   -- a certain way to write the programs
+   
+3. Classes
+   -- blueprint
+   -- real object + functions that they can perform 
+   
+4. Objects
+   -- objects are instance of class
+   -- objects of class will have same properties and functions as defined in the class
+
+5. features of OOPS 
+   -- ENCAPSULATION
+      --> wrapping code(methods) and data together into a single unit.
+      --> access to data is provided through functions of class so helps in data hiding
+      --> ex- checking bank balance data hiding is helpful
+      --> advantages :
+          Data security (data and functions operating on data are binded together)
+          Data integrity (data is not modified by any object outside class )
+
+   -- ABSTRACTION
+      --> refers to the act of representing essential features wthout including the background details or explanations.
+      --> helps in hiding unnecessary details from the user
+      --> advantages :
+          even if the implementation is changed the function remains the same.
+
+   -- ENCAPSULATION V/S ABSTRACTION
+      --> abstraction is the method of hiding the unwanted information whereas
+          encapsulation is a method to hide the data in a single entity or unit 
+          along with a method to protect information from outside .
+      --> abstraction focuses on the observable behaviour of the object while encapsulation
+          focuses on the implementation
+      --> abstraction is when u look a class from outside while encapsulation is when u look at a class from inside .
+
+   -- INHERITANCE
+      --> one class acquires the property of another class
+      --> advantages :
+          reusability of code
+
+   -- POLYMORPHISM
+      --> ability of something to have more than one form
+      --> same thing will behave differently in different situations
+          
+
