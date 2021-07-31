@@ -1,0 +1,41 @@
+1. getters and setters.IntelliJ can automatically create getters and setters .select the data members and right click and create getters and setters
+
+2.function definition is also given as and when function is declared . there is no concept of header files as in c++. 
+
+3. memory is allocated only when objects are created from class.
+
+4. creating objects in java
+   --> step 1 : declaration 
+                ex -- DreamCompany Google
+                this does not allocate any memory unlike primitive data types like int , char
+                it just creates reference of type 'DreamCompany' and name 'Google' pointing to nothing.
+
+   --> step 2 : instantiation
+                ex.-- DreamCompany Google = new DreamCompany()
+                new operator allocates memory for the object and returns a reference to that memory.
+
+   --> step 3 : initialisation
+                initialise the object with values 
+
+5. Access modifiers
+   --> these restrict the scope of a class , variable , method or a data member.
+   --> four types of access modifiers : public , private , protected , default : no keyword required
+  
+6. public access modifier
+
+7. protected access modifier
+   --> makes the data members / functions available to all classes within the same package and to subclasses (child classes) in different packages.
+ 
+8. private access modifier
+   -->  makes the data members / functions  available only within the same class in which they are declared.
+   -->  these attributes are not even available to classes defined within the same package .
+   --> the class has to provide some public API / function to access the data member or the function.
+
+9. default access modifier
+   --> when no keyword is specified with the class member then the 'default' access modifier is used 
+   --> scope of data members / functions with default access modifier is to all classes within the same package.
+
+10. tips on using access modifiers
+    --> its good practice to use the most restrictive access level possible for any given member
+    --> we should always use private access modifier unless there is a good reason not to .
+    --> public access level should be only used if a member (specifically member function) is to be exposed as an api to other classes.
